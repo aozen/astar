@@ -1,0 +1,25 @@
+{
+    "name": "aozen/astar",
+    "description": "A PHP package for finding the closest path and generating images of graphs using the A* algorithm",
+    "license": "MIT",
+    "keywords": [
+        "graph",
+        "image",
+        "algorithm",
+        "A*",
+        "Astar"
+    ],
+    "authors": [
+        {
+            "name": "Ali ÖZEN",
+            "email": "aliozendev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/aozen/astar",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Aozen\\AStar\\": "src"}
+    }
+}
