@@ -2,7 +2,7 @@
 
 namespace Aozen\Astar;
 
-class AStar {
+class Astar {
     private $graph;
     private $cameFrom;
 

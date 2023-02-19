@@ -19,6 +19,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
-        "psr-4": {"Aozen\\AStar\\": "src"}
+        "psr-4": {"Aozen\\Astar\\": "src"}
     }
 }

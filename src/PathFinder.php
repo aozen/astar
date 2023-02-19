@@ -11,8 +11,8 @@ class PathFinder {
         return $graph;
     }
     public function findPath(Graph $graph, $start_point, $end_point) {
-        $aStar = new AStar($graph);
-        return $aStar->search($start_point, $end_point);
+        $astar = new Astar($graph);
+        return $astar->search($start_point, $end_point);
     }
 
     public function drawPath(Graph $graph, $path) {
