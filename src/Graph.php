@@ -35,7 +35,7 @@ class Graph {
         return array_keys($this->edges[$node]);
     }
 
-    public function generatePath($dots) {
+    public function generatePath($dots, $weight) {
         for ($i = 1; $i <= $dots; $i++) {
             $this->addEdge($i, $i, 0);
             for ($j = $i + 1; $j <= $dots; $j++) {
@@ -48,7 +48,6 @@ class Graph {
                     $probability = 5;
                 }
                 if (rand(0, 99) < $probability) {
-                    $weight = rand(1, 20);
                     $this->addEdge($i, $j, $weight);
                     $this->addEdge($j, $i, $weight);
                 }
